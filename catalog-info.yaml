@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: semantic
+  description: backstage test teams
+  annotations:
+  tags:
+    - python
+    - package
+    - public
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+spec:
+  type: package
+  owner: 02.02cloud
+  lifecycle: experimental
